@@ -1,17 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App by Sanjeev</title>
+<meta charset="utf-8">
+<title>Invitation</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="Untitled3.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-3.7.0.min.js"></script>
+<script src="jquery.2dtransform.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.carousel.effects.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   var Carousel1Opts =
+   {
+      delay: 7000,
+      duration: 500,
+      easing: 'linear',
+      mode: 'rotate',
+      direction: '',
+      scalemode: 2,
+      pagination: false,
+      pause: null,
+      start: 0
+   };
+   $("#Carousel1").carouseleffects(Carousel1Opts);
+});
+</script>
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript App Test</h1>
-  </main>
+<div id="wb_TextDt">
+<span style="color:#67876A;font-family:'Palatino Linotype';font-size:20px;"><strong>Wednesday<br>8th November<br>2023<br>7:00 PM</strong></span></div>
+<div id="wb_Line1">
+<img src="images/img0001.png" id="Line1" alt="" width="0" height="102"></div>
+<div id="wb_Timer"<div id="wb_JavaScript1" style="width:100px;height:100px;z-index:2;">
+<div id="countdown-days"></div>
+<script>
+var endDate = new Date("Nov 8, 2023 23:59:00").getTime();
+var timer = setInterval(function() 
+{
+   var now = new Date().getTime();
+   var diff = endDate - now;
+   var d = Math.floor(diff /  (1000 * 60 * 60 * 24));
+   document.getElementById("countdown-days").innerHTML = d + "<br />" + " Days to Go ";
+   if (diff < 0) 
+   {
+      clearInterval(timer);
+      document.getElementById("countdown-days").innerHTML  = d*-1 + " Days Ago";
+   }
+}, 1000);
+</script></div>>
+&nbsp;</div>
+<div id="wb_Image1">
+<img src="images/pngwing.com.png" id="Image1" alt="" width="190" height="192"></div>
+<div id="wb_Text1">
+<span style="color:#67876A;font-family:'Bookman Old Style';font-size:75px;"><strong>Saivi<br>Jashan</strong></span></div>
+<div id="wb_Text2">
+<span style="color:#000000;font-family:Georgia;font-size:20px;">We can't wait to celebrate our special day with you</span></div>
+<div id="wb_Text3">
+<span style="color:#67876A;font-family:Georgia;font-size:21px;">MARYLAND, Moga Road, Ferozepur</span></div>
+<div id="wb_Image2">
+<img src="images/Flower.png" id="Image2" alt="" width="116" height="118"></div>
+<a id="Button1" href="https://www.google.com/maps/place/Maryland/@30.9027851,74.6778026,17z/data=!3m1!4b1!4m6!3m5!1s0x3919e9a40d275bab:0x5cf7a1cb6b169453!8m2!3d30.9027851!4d74.6803775!16s%2Fg%2F11ns42bccd?hl=en-IN&entry=ttu" target="_blank" title="MARYLAND">Get Directions</a>
+<div id="wb_Image3">
+<img src="images/Logo-google-map-design-on-transparent-background-PNG.png" id="Image3" alt="" width="21" height="26"></div>
+<div id="wb_MediaPlayer1">
+<audio id="MediaPlayer1" autoplay controls loop>
+<source src="Music.mp3" type="audio/mpeg">
+</audio>
+</div>
+<div id="wb_Carousel1">
+<div id="Carousel1">
+<div class="frame">
+<div id="wb_Image4">
+<img src="images/Snapshot_20.JPG" id="Image4" alt="" width="510" height="907"></div>
+</div>
+<div class="frame" style="display:none">
+<div id="wb_Image7">
+<img src="images/Snapshot_21.JPG" id="Image7" alt="" width="485" height="862"></div>
+</div>
+<div class="frame" style="display:none">
+<div id="wb_Image6">
+<img src="images/Snapshot_22.JPG" id="Image6" alt="" width="508" height="903"></div>
+</div>
+</div>
+</div>
 </body>
-
 </html>
