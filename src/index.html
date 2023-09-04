@@ -11,6 +11,7 @@
 <script src="jquery.2dtransform.js"></script>
 <script src="jquery-ui.min.js"></script>
 <script src="wb.carousel.effects.min.js"></script>
+<script src="wwb18.min.js"></script>
 <script>
 $(document).ready(function()
 {
@@ -30,7 +31,7 @@ $(document).ready(function()
 });
 </script>
 </head>
-<body>
+<body onkeydown="PlayAudio('MediaPlayer1');return false;">
 <div id="wb_TextDt">
 <span style="color:#67876A;font-family:'Palatino Linotype';font-size:20px;"><strong>Wednesday<br>8th November<br>2023<br>7:00 PM</strong></span></div>
 <div id="wb_Line1">
@@ -67,8 +68,8 @@ var timer = setInterval(function()
 <div id="wb_Image3">
 <img src="images/Logo-google-map-design-on-transparent-background-PNG.png" id="Image3" alt="" width="21" height="26"></div>
 <div id="wb_MediaPlayer1">
-<audio id="MediaPlayer1" autoplay controls loop>
-<source src="Music.mp3" type="audio/mpeg">
+<audio id="MediaPlayer1" autoplay loop>
+<source src="Wedding.mp3" type="audio/mpeg">
 </audio>
 </div>
 <div id="wb_Carousel1">
