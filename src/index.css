@@ -229,9 +229,9 @@ body
 #wb_MediaPlayer1
 {
    position: absolute;
-   left: 323px;
-   top: 42px;
-   width: 109px;
+   left: 116px;
+   top: 240px;
+   width: 163px;
    height: 35px;
    z-index: 13;
 }
@@ -512,9 +512,9 @@ body
 }
 #wb_MediaPlayer1
 {
-   left: 225px;
-   top: 797px;
-   width: 71px;
+   left: 67px;
+   top: 162px;
+   width: 171px;
    height: 20px;
    visibility: visible;
    display: inline;

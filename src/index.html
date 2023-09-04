@@ -31,7 +31,7 @@ $(document).ready(function()
 });
 </script>
 </head>
-<body onkeydown="PlayAudio('MediaPlayer1');return false;">
+<body onclick="PlayAudio('MediaPlayer1');return false;" onkeydown="PlayAudio('MediaPlayer1');return false;">
 <div id="wb_TextDt">
 <span style="color:#67876A;font-family:'Palatino Linotype';font-size:20px;"><strong>Wednesday<br>8th November<br>2023<br>7:00 PM</strong></span></div>
 <div id="wb_Line1">
@@ -68,7 +68,7 @@ var timer = setInterval(function()
 <div id="wb_Image3">
 <img src="images/Logo-google-map-design-on-transparent-background-PNG.png" id="Image3" alt="" width="21" height="26"></div>
 <div id="wb_MediaPlayer1">
-<audio id="MediaPlayer1" autoplay loop>
+<audio id="MediaPlayer1" autoplay controls loop>
 <source src="Wedding.mp3" type="audio/mpeg">
 </audio>
 </div>
