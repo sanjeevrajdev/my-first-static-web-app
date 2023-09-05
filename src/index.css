@@ -230,7 +230,7 @@ body
 {
    position: absolute;
    left: 116px;
-   top: 240px;
+   top: 182px;
    width: 163px;
    height: 35px;
    z-index: 13;
@@ -239,16 +239,16 @@ body
 {
    position: absolute;
    left: 59px;
-   top: 365px;
+   top: 267px;
    width: 357px;
-   height: 175px;
+   height: 125px;
    z-index: 7;
 }
 #wb_Text2
 {
    position: absolute;
-   left: 47px;
-   top: 654px;
+   left: 29px;
+   top: 529px;
    width: 336px;
    height: 45px;
    text-align: center;
@@ -257,8 +257,8 @@ body
 #wb_Text3
 {
    position: absolute;
-   left: 80px;
-   top: 798px;
+   left: 88px;
+   top: 673px;
    width: 336px;
    height: 48px;
    text-align: center;
@@ -267,17 +267,17 @@ body
 #wb_Image1
 {
    position: absolute;
-   left: 200px;
-   top: 344px;
-   width: 190px;
-   height: 243px;
+   left: 153px;
+   top: 302px;
+   width: 89px;
+   height: 90px;
    z-index: 6;
 }
 #wb_Image2
 {
    position: absolute;
-   left: 21px;
-   top: 798px;
+   left: 12px;
+   top: 639px;
    width: 116px;
    height: 117px;
    z-index: 10;
@@ -285,8 +285,8 @@ body
 #wb_Image3
 {
    position: absolute;
-   left: 179px;
-   top: 873px;
+   left: 184px;
+   top: 737px;
    width: 21px;
    height: 25px;
    z-index: 12;
@@ -322,7 +322,7 @@ body
 #wb_Carousel1
 {
    position: absolute;
-   left: 445px;
+   left: 446px;
    top: 42px;
    width: 504px;
    height: 1018px;
@@ -354,8 +354,8 @@ body
 #Button1
 {
    position: absolute;
-   left: 174px;
-   top: 868px;
+   left: 179px;
+   top: 732px;
    width: 149px;
    height: 35px;
    z-index: 11;
@@ -387,7 +387,7 @@ body
 }
 #wb_TextDt
 {
-   left: 1px;
+   left: 127px;
    top: 47px;
    width: 141px;
    height: 108px;
@@ -401,14 +401,14 @@ body
 }
 #wb_Line1
 {
-   left: 149px;
+   left: 275px;
    top: 43px;
    visibility: visible;
    display: inline;
 }
 #wb_Timer
 {
-   left: 178px;
+   left: 304px;
    top: 61px;
    width: 49px;
    height: 15px;
@@ -422,10 +422,10 @@ body
 }
 #wb_Image1
 {
-   left: 168px;
-   top: 858px;
-   width: 144px;
-   height: 146px;
+   left: 230px;
+   top: 198px;
+   width: 103px;
+   height: 104px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -433,10 +433,10 @@ body
 }
 #wb_Text1
 {
-   left: 11px;
-   top: 819px;
+   left: 130px;
+   top: 163px;
    width: 320px;
-   height: 175px;
+   height: 125px;
    visibility: visible;
    display: inline;
 }
@@ -447,8 +447,8 @@ body
 }
 #wb_Text2
 {
-   left: 24px;
-   top: 1040px;
+   left: 103px;
+   top: 917px;
    width: 272px;
    height: 45px;
    visibility: visible;
@@ -461,8 +461,8 @@ body
 }
 #wb_Text3
 {
-   left: 26px;
-   top: 1190px;
+   left: 105px;
+   top: 1108px;
    width: 272px;
    height: 48px;
    visibility: visible;
@@ -475,8 +475,8 @@ body
 }
 #wb_Image2
 {
-   left: 105px;
-   top: 1085px;
+   left: 184px;
+   top: 988px;
    width: 94px;
    height: 95px;
    visibility: visible;
@@ -486,8 +486,8 @@ body
 }
 #Button1
 {
-   left: 78px;
-   top: 1262px;
+   left: 157px;
+   top: 1180px;
    width: 149px;
    height: 35px;
    visibility: visible;
@@ -501,8 +501,8 @@ body
 }
 #wb_Image3
 {
-   left: 83px;
-   top: 1267px;
+   left: 162px;
+   top: 1185px;
    width: 21px;
    height: 25px;
    visibility: visible;
@@ -512,8 +512,8 @@ body
 }
 #wb_MediaPlayer1
 {
-   left: 67px;
-   top: 162px;
+   left: 155px;
+   top: 342px;
    width: 171px;
    height: 20px;
    visibility: visible;
@@ -522,8 +522,8 @@ body
 }
 #wb_Carousel1
 {
-   left: 16px;
-   top: 182px;
+   left: 85px;
+   top: 356px;
    width: 310px;
    height: 537px;
    visibility: visible;
