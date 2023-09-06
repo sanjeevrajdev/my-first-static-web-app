@@ -541,6 +541,12 @@ body {
 	font-weight: 900;
 }
 
+.sangeet {
+	color: #874562;
+	font-weight: 900;
+	font-size: 24px;
+}
+
 .footer {
 	color: #564861;
 	text-align: center;
